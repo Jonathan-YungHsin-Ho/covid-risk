@@ -14,6 +14,13 @@ function App() {
 				target='_blank'
 				rel='noopener noreferrer'>
 				Source data
+			</a>{' '}
+			|{' '}
+			<a
+				href='https://www.jonathan-ho.dev'
+				target='_blank'
+				rel='noopener noreferrer'>
+				jonathan-ho.dev
 			</a>
 		</div>
 	);
