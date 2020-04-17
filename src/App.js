@@ -6,8 +6,11 @@ import { data } from './tree';
 function App() {
 	return (
 		<div className='App'>
-			<h1>Likelihood of Covid-19 Hospitalization</h1>
-			<p>For patients with laboratory-confirmed Covid-19</p>
+			<h1>Covid-19 Hospitalization Risk</h1>
+			<p>
+				Likelihood of hospitalization for patients with laboratory-confirmed
+				Covid-19
+			</p>
 			<Card data={data} />
 			<a
 				href='https://www.medrxiv.org/content/10.1101/2020.04.08.20057794v1.full.pdf'
